@@ -1,0 +1,6 @@
+Q5. Write a Program that has a list of countries. Create a set of the countries and print the names of the countries in sorted order.
+Soln.
+s1 = eval(input("Enter city list = "))
+s1 = set(s1)
+print(sorted(list(s1)))
+
